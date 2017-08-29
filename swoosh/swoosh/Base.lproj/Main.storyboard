@@ -178,6 +178,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="uT0-EN-9Db" eventType="touchUpInside" id="GY4-pN-Egy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-db-ZnW">
                                 <rect key="frame" x="16" y="30" width="29" height="24"/>
@@ -206,6 +209,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="AE4-gR-8Il" secondAttribute="trailing" id="zEK-8Z-OVL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="CKD-bA-6nX" kind="show" identifier="skillVCSegue" id="OjO-XL-RaW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHW-dy-PKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="mz8-58-PtX" userLabel="Exit" sceneMemberID="exit"/>
