@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -91,19 +91,15 @@
                             <constraint firstItem="4YR-aV-5KC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sMH-i4-aYU"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bgimg" destination="4YR-aV-5KC" id="76j-87-xZo"/>
-                        <outlet property="swoosh" destination="Nbc-LW-bXo" id="Mic-VN-YgH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="zm2-mw-CKq">
             <objects>
-                <viewController id="uT0-EN-9Db" sceneMemberID="viewController">
+                <viewController id="uT0-EN-9Db" customClass="LeagueVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wtx-KS-O3b"/>
                         <viewControllerLayoutGuide type="bottom" id="4aP-qV-wen"/>
@@ -183,8 +179,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-db-ZnW">
-                                <rect key="frame" x="16" y="30" width="39" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-db-ZnW">
+                                <rect key="frame" x="16" y="30" width="29" height="24"/>
                                 <state key="normal" image="backButton"/>
                                 <connections>
                                     <segue destination="mz8-58-PtX" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="Yln-4P-j6X"/>
@@ -216,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="789.60000000000002" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="fLx-3q-SWY">
             <objects>
-                <viewController id="CKD-bA-6nX" sceneMemberID="viewController">
+                <viewController id="CKD-bA-6nX" customClass="SkillVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BDP-mN-efa"/>
                         <viewControllerLayoutGuide type="bottom" id="AaI-oT-xkv"/>
